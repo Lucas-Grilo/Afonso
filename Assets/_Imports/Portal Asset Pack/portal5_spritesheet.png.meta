@@ -1,22 +1,7 @@
 fileFormatVersion: 2
-guid: b1ba59a5e0321eb459d8717bf09639dd
+guid: 65621c829e5eca749a951d588b7c0957
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -4184384184048902449
-    second: Hit (38x24)_0
-  - first:
-      213: 7028349451102240404
-    second: Hit (38x24)_1
-  - first:
-      213: -8837823990603146419
-    second: Hit (38x24)_2
-  - first:
-      213: -1595206458833973509
-    second: Hit (38x24)_3
-  - first:
-      213: 6748214217374984161
-    second: Hit (38x24)_4
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -77,14 +62,14 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -120,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -131,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hit (38x24)_0
+      name: portal5_spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 38
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5087dedcfd2435d4ea96d2647f50b6cf
-      internalID: -4184384184048902449
+      spriteID: cf0e9ddc8b776784aa3b87dcfaa91783
+      internalID: -194304679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hit (38x24)_1
+      name: portal5_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 38
+        x: 32
         y: 0
-        width: 38
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28d6c00ec398a8046b282da873f79de3
-      internalID: 7028349451102240404
+      spriteID: aa1a198d79ebe4f47b8205c5687712da
+      internalID: -543495096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hit (38x24)_2
+      name: portal5_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 76
+        x: 64
         y: 0
-        width: 38
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f91792c57490e7542a462b669e9a20ad
-      internalID: -8837823990603146419
+      spriteID: fd7c1623ab5b07349b7cfebfe5784481
+      internalID: 1126279202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hit (38x24)_3
+      name: portal5_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 114
+        x: 96
         y: 0
-        width: 38
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a69572caa839e5e449d63918c6697f02
-      internalID: -1595206458833973509
+      spriteID: 07f73baa794786749867116cb6a357f8
+      internalID: 787566369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hit (38x24)_4
+      name: portal5_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 152
+        x: 128
         y: 0
-        width: 38
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +214,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bf9babc2f69978408ac5bd517aa641b
-      internalID: 6748214217374984161
+      spriteID: 69f954d1259b35740978b98e2be2a075
+      internalID: 1341798382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal5_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949799906a0c69f459618657792c422b
+      internalID: 1766178925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal5_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735c26b59deb5f8409a5e84668366ae9
+      internalID: 75190324
       vertices: []
       indices: 
       edges: []
@@ -246,11 +273,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hit (38x24)_2: -8837823990603146419
-      Hit (38x24)_3: -1595206458833973509
-      Hit (38x24)_0: -4184384184048902449
-      Hit (38x24)_4: 6748214217374984161
-      Hit (38x24)_1: 7028349451102240404
+      portal5_spritesheet_2: 1126279202
+      portal5_spritesheet_3: 787566369
+      portal5_spritesheet_6: 75190324
+      portal5_spritesheet_0: -194304679
+      portal5_spritesheet_5: 1766178925
+      portal5_spritesheet_4: 1341798382
+      portal5_spritesheet_1: -543495096
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -9,4 +9,6 @@ public abstract class BaseEnemy : MonoBehaviour
     animator = GetComponent<Animator>();
    }
    protected abstract void Update();
+
+   
 }

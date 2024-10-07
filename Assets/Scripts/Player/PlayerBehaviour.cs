@@ -8,6 +8,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     private Rigidbody2D rigidbody;
     private IsGroundChecker isGroundChecker;
+    private float moveDirection;
 
     private void Awake()
     {
@@ -19,12 +20,28 @@ public class PlayerBehaviour : MonoBehaviour
     {
         GameManager.Instance.inputManager.OnJump += HandleJump;
     }
-    private void Update()
-    {
-        float moveDirection = GameManager.Instance.inputManager.Movement;
-        transform.Translate(moveDirection *Time.deltaTime * moveSpeed, 0, 0);
 
-        if (moveDirection < 0) 
+    private void Update()
+    {     
+        MovePlayer();
+        FlipSpriteAccordingToMoveDirection();
+    }
+
+    private void MovePlayer()
+    {
+        moveDirection = GameManager.Instance.inputManager.Movement;
+        transform.Translate(moveDirection * Time.deltaTime * moveSpeed, 0, 0);
+    }
+
+    private void HandleJump()
+    {
+        if (isGroundChecker.IsGrounded() == false) return;
+        rigidbody.velocity += Vector2.up * jumpForce;
+    }
+
+    private void FlipSpriteAccordingToMoveDirection()
+    {
+        if (moveDirection < 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
         }
@@ -32,10 +49,5 @@ public class PlayerBehaviour : MonoBehaviour
         {
             transform.localScale = Vector3.one;
         }
-    }
-    private void HandleJump()
-    {
-        if (isGroundChecker.IsGrounded() == false) return;
-        rigidbody.velocity += Vector2.up * jumpForce;
     }
 }
