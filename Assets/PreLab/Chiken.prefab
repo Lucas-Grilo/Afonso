@@ -121,8 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 517248d4ec8f62641a6189826bcd85e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectPosition: {fileID: 0}
-  detectBoxSize: {x: 0, y: 0}
+  detectPosition: {fileID: 2305209341245888041}
+  detectBoxSize: {x: 2.4, y: 1.15}
   playerLayer:
     serializedVersion: 2
     m_Bits: 0
