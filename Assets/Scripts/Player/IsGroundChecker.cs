@@ -12,6 +12,6 @@ public class IsGroundChecker : MonoBehaviour
    }
    private void OnDrawGizmos()
    {
-      Gizmos.DrawWireCube(checkerPosition.position, checkerSize);
+        Gizmos.DrawWireCube(checkerPosition.position, checkerSize);
    }
 }
