@@ -3,13 +3,14 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    public InputManager inputManager { get; private set; }
-    void Awake()
+    public InputManager InputManager { get; private set; }
+    public AudioManager AudioManager;
+
+    private void Awake()
     {
-        if(Instance != null) Destroy(this.gameObject);
+        if (Instance != null) Destroy(this.gameObject);
         Instance = this;
 
-        inputManager = new InputManager();
+        InputManager = new InputManager();
     }
-    
 }

@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 0011c0d42a858fc42b22db5a20acaaa7
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Kids Note
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 79f5b01c6911cd04fb06c0272cf78e42, type: 3}
+  - {fileID: 12800000, guid: 596a7e4d69fe9f744a6e76a09187c54a, type: 3}
+  - {fileID: 12800000, guid: 2db983a2c49937d4db434b73a72c1481, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

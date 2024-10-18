@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: cb297c10d8c9bb742926fb8b28f49548
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Cotton Candies
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cd8df6ff80d3bdd419f11095ea277162, type: 3}
+  - {fileID: 12800000, guid: 806ef90fcb77ebe4aa17be7e156f1f59, type: 3}
+  - {fileID: 12800000, guid: 9a3b30798c1c92c4daf67a2e2542edb9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

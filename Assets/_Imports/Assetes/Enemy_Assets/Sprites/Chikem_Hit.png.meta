@@ -131,7 +131,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hit (32x34)_2
+      name: Chikem_Hit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dc3e977ee469f4ab5632cd7721cf84
+      internalID: 1034434071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikem_Hit_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de989d34a27d7484290d4d1a5dffcd18
+      internalID: -1048898300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chikem_Hit_2
       rect:
         serializedVersion: 2
         x: 64
@@ -139,20 +181,20 @@ TextureImporter:
         width: 32
         height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b63b68d5f644f14693d7749f64e9f35
-      internalID: 1102757246451432419
+      spriteID: 943724e73f68675488c9a3dbe525ca2c
+      internalID: -484715888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hit (32x34)_3
+      name: Chikem_Hit_3
       rect:
         serializedVersion: 2
         x: 96
@@ -160,20 +202,20 @@ TextureImporter:
         width: 32
         height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8ab78af194783846a301c4930bb34ef
-      internalID: 5161840587998983807
+      spriteID: 210b7ddc33f45dc4fb041a1370a9c4da
+      internalID: 274700277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hit (32x34)_4
+      name: Chikem_Hit_4
       rect:
         serializedVersion: 2
         x: 128
@@ -181,14 +223,14 @@ TextureImporter:
         width: 32
         height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9ccdf77de8919a43b63fde6bf3b6621
-      internalID: 8016166978198779620
+      spriteID: a6ccff52dc26cf443b20d5d974bbbd0a
+      internalID: -54400297
       vertices: []
       indices: 
       edges: []
@@ -204,11 +246,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hit (32x34)_4: 8016166978198779620
-      Hit (32x34)_0: -2619961059623167388
-      Hit (32x34)_2: 1102757246451432419
-      Hit (32x34)_1: -4039234224601463810
-      Hit (32x34)_3: 5161840587998983807
+      Chikem_Hit_3: 274700277
+      Chikem_Hit_1: -1048898300
+      Chikem_Hit_2: -484715888
+      Chikem_Hit_0: 1034434071
+      Chikem_Hit_4: -54400297
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

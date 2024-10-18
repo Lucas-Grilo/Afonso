@@ -66,7 +66,7 @@ public class MeleeEnemy : BaseEnemy
 
     private void PlayDeadAudio()
     {
-        //audioSource.clip = audioClips[2];
+        audioSource.clip = audioClips[2];
         audioSource.Play();
     }
 

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 125ab9a0abc8b4441b104f195cc5d0b4
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Butterfly Kids
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 492096cf357ec2941a89f61935294029, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

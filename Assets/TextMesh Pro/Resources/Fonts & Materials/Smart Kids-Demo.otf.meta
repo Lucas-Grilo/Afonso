@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d6152c33abc44e04cb2c05ed100faab8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Smart Kids - Demo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5bd2b286a650d2f4f9f1925ddd194d36, type: 3}
+  - {fileID: 12800000, guid: 34ed971c30e3b8244a155c4545ce86fd, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

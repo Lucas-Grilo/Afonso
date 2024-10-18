@@ -28,6 +28,7 @@ public abstract class BaseEnemy : MonoBehaviour
     {
         canAttack = false;
         //GetComponent<BoxCollider2D>().enabled = false;
+        GetComponent<MoveEnemy>().enabled = false;
         animator.SetTrigger("dead");
         StartCoroutine(DestroyEnemy(2));
     }
